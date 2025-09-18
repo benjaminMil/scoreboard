@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+    color: azure;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+#home-score, #guest-score {
+    margin: 0;
+    background-color: black;
+    color: red;
+    width: 200px;
+    font-size: 150px;
+}
+
+.points {
+    margin-top: 2rem;
+    gap:1.5rem;
+    border: whitesmoke dotted 1px;
+    background-color: #1B244A;
+    color: antiquewhite;
+   padding: 0.25rem 0.5rem;
+}
+
+#newGame{
+    margin: 3rem auto;
+    width:200px;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: red;
+    font-size: 2rem;
+    border: 1px solid red;
+    border-radius: 10px;
+}
